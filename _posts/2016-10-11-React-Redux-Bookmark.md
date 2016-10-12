@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: React & Redux
 ---
 ## React
@@ -25,6 +25,6 @@ title: React & Redux
 
 >강의
 
-https://egghead.io/courses/getting-started-with-redux
+(https://egghead.io/courses/getting-started-with-redux)
 
-https://learnredux.com/
+(https://learnredux.com/)
