@@ -1,14 +1,14 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /:title
 
 # Setup
 title:               jjingK
 tagline:             "'s blog"
 description:         'Made by <a href="https://github.com/jjingK" target="_blank">@jjingK</a>.'
-url:                 https://jjingk.github.io
+url:                 "https://jjingk.github.io"
 baseurl:             ''
+permalink:           /:title
 paginate:            5
 
 # About/contact
