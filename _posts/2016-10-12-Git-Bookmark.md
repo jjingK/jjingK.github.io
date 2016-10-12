@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: post
 title: Git
-category: bookmark
-tags: git
 ---
 
 ## Git

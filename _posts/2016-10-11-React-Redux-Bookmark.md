@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: post
 title: React & Redux
-category: bookmark
-tags: react, redux
 ---
 ## React
 
