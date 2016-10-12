@@ -2,14 +2,13 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               jjingK
 tagline:             "'s blog"
 description:         'Made by <a href="https://github.com/jjingK" target="_blank">@jjingK</a>.'
 url:                 https://jjingk.github.io
-baseurl:             '/'
+baseurl:             ''
 paginate:            5
 
 # About/contact
