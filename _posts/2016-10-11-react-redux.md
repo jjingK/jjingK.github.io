@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React & Redux
+title: react-redux
 ---
 ## React
 
