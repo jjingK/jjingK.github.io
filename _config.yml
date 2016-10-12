@@ -3,8 +3,8 @@ title:               jjingK
 tagline:             "'s blog"
 description:         'Made by <a href="https://github.com/jjingK" target="_blank">@jjingK</a>.'
 url:                 https://jjingk.github.io
-baseurl:             'https://jjingk.github.io'
-permalink:           :title
+baseurl:             ''
+permalink:           /:title
 paginate:            1
 
 # About/contact
