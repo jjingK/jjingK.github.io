@@ -9,6 +9,10 @@ title: react-redux
 - [한글 번역](https://github.com/facebook/react/blob/master/docs/docs/)
 - [유용한 툴들](https://github.com/facebook/react/wiki/Complementary-Tools)
 
+>심화
+
+- [React 소스 코드 읽기](http://blog.sapzil.org/2016/03/09/react-internals-modules/)
+
 ## Redux
 
 
@@ -25,6 +29,5 @@ title: react-redux
 
 >강의
 
-(https://egghead.io/courses/getting-started-with-redux)
-
-(https://learnredux.com/)
+[https://egghead.io/courses/getting-started-with-redux](https://egghead.io/courses/getting-started-with-redux)
+[https://learnredux.com/](https://learnredux.com/)
