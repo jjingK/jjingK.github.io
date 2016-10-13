@@ -29,5 +29,5 @@ title: react-redux
 
 >강의
 
-[https://egghead.io/courses/getting-started-with-redux](https://egghead.io/courses/getting-started-with-redux)
-[https://learnredux.com/](https://learnredux.com/)
+- [https://egghead.io/courses/getting-started-with-redux](https://egghead.io/courses/getting-started-with-redux)
+- [https://learnredux.com/](https://learnredux.com/)
