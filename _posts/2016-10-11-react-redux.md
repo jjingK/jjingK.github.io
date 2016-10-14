@@ -1,6 +1,7 @@
 ---
 layout: post
 title: react-redux
+tags: react redux bookmark
 ---
 ## React
 
