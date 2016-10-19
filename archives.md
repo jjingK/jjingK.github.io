@@ -3,7 +3,7 @@ layout: page
 title: Archives
 ---
 <!-- from http://www.mitsake.net/2012/04/archives-in-jekyll/ -->
-
+<articles>
 {% for post in site.posts %}
   {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
   {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
