@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript
+title: javascript
 tags: javascript
 ---
 
