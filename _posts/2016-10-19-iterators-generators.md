@@ -70,6 +70,27 @@ console.log(ge.next());   // => { value: current_value, done: false || true }
 
 - [yield* ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*)
   - iterable 객체를 반환하는 표현식
+  - 지연 위임 // => *g2* 에서 *yield* * *g1* 호출시 *g1*의 실행을 마치고 자신의 yield로 돌아옴
+
+{% highlight js %}
+function* g1() {
+  yield 2;
+  yield 3;
+  yield 4;
+}
+function* g2() {
+  yield 1;
+  yield* g1();
+  yield 5;
+}
+let iterator = g2();
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+{% endhighlight %}
 
 - spread &amp; destructuring
 
@@ -85,4 +106,9 @@ console.log(ge.next());   // => { value: current_value, done: false || true }
 >참고
 
 - [Iterators and generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators)
+- [ES6 projectBS](https://github.com/projectBS/s67/blob/master/s67_3.pdf)
 - [ES2015 slideshare 자료 *23~33*](http://www.slideshare.net/shallaa/ecma2015-inside-65652426)
+
+> 예제
+
+<a href="{{site.baseurl}}/public/ex/index.html">Generators</a>
