@@ -8,6 +8,14 @@ tags: javascript
 
 사용하고 있지만 잘 알지 못했던 것 + 추가 문법
 
+- [Object.keys(obj)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+
+{% highlight js %}
+var obj = { 0: 'a', 1: 'b', 2: 'c' };
+console.log(Object.keys(obj));  // => [0, 1, 2];
+console.log(Object.keys(obj).length);   // => 빈배열인지 여부 체크
+{% endhighlight %}
+
 - [Array.prototype.map()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
   callback 인자로 타입을 넘겨주면 해당 타입으로 변환된 배열을 반환해 줌
